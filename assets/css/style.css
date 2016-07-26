@@ -1,0 +1,67 @@
+body,
+html {
+	min-height: 100%;
+}
+body {
+	background-image:url("../images/wethepeople1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;
+	height: auto;
+}
+.container {
+	margin: 100px auto !important;
+	padding: 200px 200px !important;
+	text-align: center;
+	background-color: black;
+	opacity: 0.8;
+}
+h1 {
+	font-family: monaco, Consolas, "Lucida Console", monospace !important;
+	font-size: 40px !important;
+	color: 	#ff4000 !important;
+	margin-top: -150px !important;
+}
+.timeLeft {
+	margin-top: -75px !important;
+	font-size: 30px !important; 
+	color: orange;
+}
+.question1 {
+	font-size: 20px !important;
+	color: orange!important;
+}
+.question2 {
+	font-size: 20px !important;
+	color: orange!important;
+}
+.question3 {
+	font-size: 20px !important;
+	color: orange!important;
+}
+.question4 {
+	font-size: 20px !important;
+	color: orange!important;
+}
+.question5 {
+	font-size: 20px !important;
+	color: orange!important;
+}
+.question6 {
+	font-size: 20px !important;
+	color: orange!important;
+
+}
+.question7 {
+	font-size: 20px !important;
+	color: orange!important;
+}
+.question8 {
+	font-size: 20px !important;
+	color: orange!important;
+}
+input [type="radio"] {
+	font-size: 60px !important;
+	color: red;
+
+}
