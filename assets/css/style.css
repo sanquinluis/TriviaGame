@@ -65,3 +65,11 @@ input [type="radio"] {
 	color: red;
 
 }
+.hidethis {
+	margin-top: -105px !important;
+	font-size: 30px !important; 
+	color: orange;
+}
+.btn {
+	margin-top: -165px;
+}
