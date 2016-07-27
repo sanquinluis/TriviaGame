@@ -25,15 +25,15 @@ var theCount = 60;
   			(theCount);
 	};			
 	});
-		$('input').on ("click", function(){
-
-		function radioSe(){
-			if ($('#correctop').attr("checked", "checked"));
+		$('input[name=answer]:radio').on ("click", function(){
+			if ($('#correctop').prop("checked", true));
 			correct++;
-			if ($('#wrongop').attr("checked","checked"));
+			if ($('#wrongop').prop("checked",true));
 			incorrect++;
-	};
-			radioSe(correct);
+			
+});
+		
+			
 			console.log(incorrect);
 			console.log(correct);
 });
@@ -42,8 +42,7 @@ var theCount = 60;
 			$('.hidethis').show();
 			$('.done').hide();
 		
-	})
+	});
 	
 
 
-});
