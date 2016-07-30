@@ -11,7 +11,7 @@ body {
 }
 .container {
 	margin: 100px auto !important;
-	padding: 200px 200px !important;
+	padding: 160px 100px !important;
 	text-align: center;
 	background-color: black;
 	opacity: 0.8;
@@ -20,7 +20,7 @@ h1 {
 	font-family: monaco, Consolas, "Lucida Console", monospace !important;
 	font-size: 40px !important;
 	color: 	#ff4000 !important;
-	margin-top: -150px !important;
+	margin-top: -140px !important;
 }
 .timeLeft {
 	margin-top: -75px !important;
