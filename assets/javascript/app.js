@@ -12,7 +12,7 @@ var startTimer;
 			$('.hideit').show();
 			$('.start').hide();
 			$('.done').show();
-		startTimer = setInterval(decrement, 100);
+		startTimer = setInterval(decrement, 1000);
 		function decrement(){	
   			theCount--;
   			// console.log(theCount);
